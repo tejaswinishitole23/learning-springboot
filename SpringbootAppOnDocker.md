@@ -130,3 +130,11 @@
    http://localhost:8085/rooms
 
     ![Screenshot from 2020-06-27 16-59-01](/home/tejas/Pictures/Screenshot from 2020-06-27 16-59-01.png)
+
+6. Alternative way to run springbootapp container with postgres-docker container using docker-compose.yml
+
+   1. Make sure that container "postgres-docker" is active
+
+   2. Now run docker-compose command to run springbootapp
+
+       *Command* - docker-compose up
